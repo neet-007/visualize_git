@@ -34,10 +34,6 @@ func scan(folder string) {
 	fmt.Printf("\n\nsuccesfully added\n\n")
 }
 
-func stats(email string) {
-	fmt.Printf("stats %s\n", email)
-}
-
 func getDotFilepath() string {
 	usr, err := user.Current()
 	if err != nil {
